@@ -1,0 +1,55 @@
+body {
+    background-image: url(../assets/img/bg1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cont1 {
+    max-width: 450px;
+}
+
+.cont1 .row1 {
+    margin-top: 20px;
+    background-color: white;
+    padding-top: 15px;
+    border-radius: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.cont1 .row1 .head img {
+    width: 70px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.cont1 .row1 .head h3 {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.cont1 .row1 .mb-3 input:focus {
+    box-shadow: none;
+}
+
+.cont1 .row1 .button .btn1 {
+    float: left;
+    width: 49%;
+    border-radius: 10px;
+}
+
+.cont1 .row1 .button .btn2 {
+    float: right;
+    width: 49%;
+    border-radius: 10px;
+}
+
+.cont1 .row1 footer p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}

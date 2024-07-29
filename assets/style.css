@@ -1,0 +1,99 @@
+.dua .tamp1 label {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: rgb(64, 64, 64);
+}
+
+.dua .tamp1 .img1 {
+  border: 3px solid rgb(64, 64, 64);
+  margin-top: -20px;
+  width: 195px;
+  height: auto;
+}
+
+
+body {
+  background-image: url(../assets/img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 450px;
+}
+
+.container p img {
+  width: 40px;
+  height: auto;
+}
+
+.container .row1 {
+  margin-top: 20px;
+  background-color: white;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.container .row1 h2 {
+  padding-top: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.container .row1 label {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+.container .row1 .lab {
+  color: white;
+  border-right: none;
+}
+
+.container .row1 .btn1 {
+  margin-top: -20px;
+  width: 47%;
+  border-radius: 10px;
+}
+
+.container .row1 .btn2 {
+  margin-top: -15px;
+  float: right;
+  width: 47%;
+  margin-right: 7px;
+  color: #f7a797;
+  border-color: #f7a797;
+  border-radius: 10px;
+}
+
+.container .row1 .btn2:hover {
+  background-color: #f7a797;
+  border-color: #f7a797;
+  color: white;
+}
+
+.container .row1 .btn2:focus {
+  box-shadow: none;
+}
+
+.container .row1 .btn1:focus {
+  box-shadow: none;
+}
+
+.container .row1 .la h2 {
+  font-size: 20px;
+}
+
+.container .row1 footer p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: -5px;
+}
